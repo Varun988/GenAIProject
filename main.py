@@ -17,7 +17,7 @@ llm = ChatGroq(
     model_name="llama-3.1-70b-versatile"
 )
 
-st.title("RockyBot: News Research Tool 📈")
+st.title("News Research Tool 📈")
 st.sidebar.title("News Article URLs")
 
 urls = []
